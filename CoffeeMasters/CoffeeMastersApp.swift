@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct CoffeeMastersApp: App {
-    var body: some Scene {
-        WindowGroup {
-          ContentView().preferredColorScheme(.light)
-        }
+  var menuManager = MenuManager()
+  var cartManager = CartManager()
+
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .preferredColorScheme(.light)
+        .environmentObject(menuManager)
+        .environmentObject(cartManager)
     }
+  }
 }

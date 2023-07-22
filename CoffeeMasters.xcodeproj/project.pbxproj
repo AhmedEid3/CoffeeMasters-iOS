@@ -24,6 +24,7 @@
 		F0B29BD52A5AFE0B00B1E4F3 /* DetailsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B29BD42A5AFE0B00B1E4F3 /* DetailsPage.swift */; };
 		F0D2FFE62A5D4DC700C962B2 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FFE52A5D4DC700C962B2 /* CartManager.swift */; };
 		F0D2FFE82A5D4DD300C962B2 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2FFE72A5D4DD300C962B2 /* MenuManager.swift */; };
+		F0E7AD842A6C280E00C278FA /* AppTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E7AD832A6C280E00C278FA /* AppTitle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		F0B29BD42A5AFE0B00B1E4F3 /* DetailsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsPage.swift; sourceTree = "<group>"; };
 		F0D2FFE52A5D4DC700C962B2 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		F0D2FFE72A5D4DD300C962B2 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
+		F0E7AD832A6C280E00C278FA /* AppTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				F01E3D462A5ACCF40067D269 /* OfferView.swift */,
 				F0B29BD22A5AEEC900B1E4F3 /* ProductItem.swift */,
 				F03C43262A5DB7A200CE4CFF /* OrderItem.swift */,
+				F0E7AD832A6C280E00C278FA /* AppTitle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				F0B29BD52A5AFE0B00B1E4F3 /* DetailsPage.swift in Sources */,
 				F077A0C92A5C896C00B44B1B /* Product.swift in Sources */,
 				F0B29BD12A5AEB7400B1E4F3 /* InfoPage.swift in Sources */,
+				F0E7AD842A6C280E00C278FA /* AppTitle.swift in Sources */,
 				F03C43272A5DB7A200CE4CFF /* OrderItem.swift in Sources */,
 				F0B29BD32A5AEEC900B1E4F3 /* ProductItem.swift in Sources */,
 				F01E3D472A5ACCF40067D269 /* OfferView.swift in Sources */,
